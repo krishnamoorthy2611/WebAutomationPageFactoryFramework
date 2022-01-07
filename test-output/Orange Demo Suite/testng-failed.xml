@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange Demo Suite]">
+  <parameter name="browserName" value=""/>
+  <listeners>
+    <listener class-name="com.utilities.SuiteListener"/>
+  </listeners>
+  <test name="Default test(failed)">
+    <parameter name="browserName" value=""/>
+    <classes>
+      <class name="com.testcases.HomePageOrangeTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyOrangeHRMHomePage"/>
+        </methods>
+      </class> <!-- com.testcases.HomePageOrangeTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Orange Demo Suite] -->

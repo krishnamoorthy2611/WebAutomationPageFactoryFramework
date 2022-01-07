@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orange Demo Suite" duration-ms="195801" started-at="2022-01-07T17:27:00Z" finished-at="2022-01-07T17:30:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="195801" started-at="2022-01-07T17:27:00Z" finished-at="2022-01-07T17:30:16Z">
+      <class name="com.testcases.HomePageOrangeTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.testcases.HomePageOrangeTest@35f983a6]" name="beforeMethod" is-config="true" duration-ms="17240" started-at="2022-01-07T22:59:42Z" finished-at="2022-01-07T22:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.testcases.HomePageOrangeTest.verifyOrangeHRMHomePage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyOrangeHRMHomePage()[pri:0, instance:com.testcases.HomePageOrangeTest@35f983a6]" name="verifyOrangeHRMHomePage" duration-ms="10810" started-at="2022-01-07T22:59:59Z" finished-at="2022-01-07T23:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrangeHRMHomePage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.HomePageOrangeTest@35f983a6]" name="afterMethod" is-config="true" duration-ms="1318" started-at="2022-01-07T23:00:10Z" finished-at="2022-01-07T23:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrangeHRMHomePage status=SUCCESS method=HomePageOrangeTest.verifyOrangeHRMHomePage()[pri:0, instance:com.testcases.HomePageOrangeTest@35f983a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testcases.HomePageOrangeTest -->
+      <class name="com.testcases.LoginPageOrangeTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.testcases.LoginPageOrangeTest@59a6e353]" name="setupTest" is-config="true" duration-ms="530" started-at="2022-01-07T22:57:00Z" finished-at="2022-01-07T22:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.testcases.LoginPageOrangeTest@59a6e353]" name="beforeMethod" is-config="true" duration-ms="140408" started-at="2022-01-07T22:57:00Z" finished-at="2022-01-07T22:59:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.testcases.LoginPageOrangeTest.verifyOrangeHRMlogo() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyOrangeHRMlogo()[pri:0, instance:com.testcases.LoginPageOrangeTest@59a6e353]" name="verifyOrangeHRMlogo" duration-ms="20010" started-at="2022-01-07T22:59:21Z" finished-at="2022-01-07T22:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrangeHRMlogo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.LoginPageOrangeTest@59a6e353]" name="afterMethod" is-config="true" duration-ms="1179" started-at="2022-01-07T22:59:41Z" finished-at="2022-01-07T22:59:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrangeHRMlogo status=SUCCESS method=LoginPageOrangeTest.verifyOrangeHRMlogo()[pri:0, instance:com.testcases.LoginPageOrangeTest@59a6e353] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:com.testcases.LoginPageOrangeTest@59a6e353]" name="afterTest" is-config="true" duration-ms="4275" started-at="2022-01-07T23:00:11Z" finished-at="2022-01-07T23:00:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testcases.LoginPageOrangeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Orange Demo Suite -->
+</testng-results>

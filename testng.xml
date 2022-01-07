@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Orange Demo Suite">
+  <listeners>
+  <listener class-name = "com.utilities.SuiteListener"/>
+  </listeners>
+  <test verbose="2" name="Default test">
+    <parameter name = "browserName" value="edge"/>
+    <classes>
+      <class name="com.testcases.LoginPageOrangeTest"/>
+      <class name="com.testcases.HomePageOrangeTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            

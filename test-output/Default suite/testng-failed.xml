@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="browserName" value=""/>
+  <test name="Default test(failed)">
+    <parameter name="browserName" value=""/>
+    <classes>
+      <class name="com.testcases.LoginPageOrangeTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifylogo"/>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testcases.LoginPageOrangeTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
